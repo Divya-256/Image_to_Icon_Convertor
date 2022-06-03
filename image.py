@@ -30,14 +30,14 @@ def conv_img():
     success.mainloop()
 
 
-# def preview():
-#     prev=Toplevel()
-#     prev.title('Icon Preview')
-#     prev.iconbitmap(f'{ico_name.get()}.ico')
+def preview():
+    prev=Toplevel()
+    prev.title('Icon Preview')
+    prev.iconbitmap(f'{ico_name.get()}.ico')
 
-#     prev_lbl=Label(prev,text='Checkout yoour icon!')
-#     prev_lbl.pack()
-#     prev.mainloop()
+    prev_lbl=Label(prev,text='Checkout yoour icon!')
+    prev_lbl.pack()
+    prev.mainloop()
 
 # chooseL=Label(App,text='Select your image: ')
 # chooseL.grid(row=0,column=0,pady=10)
