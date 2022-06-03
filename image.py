@@ -1,5 +1,5 @@
-import imp
-from sqlite3 import Row
+# import imp
+# from sqlite3 import Row
 from tkinter import *
 
 App=Tk()
@@ -17,17 +17,17 @@ def open_img():
 
 
 
-# def conv_img():
-#     from PIL import Image
+def conv_img():
+    from PIL import Image
 
-#     img.save(f'{ico_name.get()}.ico',format='ICO',sizes=[(ico_size.get(),ico_size.get())])
+    img.save(f'{ico_name.get()}.ico',format='ICO',sizes=[(ico_size.get(),ico_size.get())])
 
-#     success=Toplevel()
-#     success.title('Success')
-#     success.geometry('300x100')
-#     msg=Label(success,text='Conversion completed')
-#     msg.pack()
-#     success.mainloop()
+    success=Toplevel()
+    success.title('Success')
+    success.geometry('300x100')
+    msg=Label(success,text='Conversion completed')
+    msg.pack()
+    success.mainloop()
 
 
 # def preview():
