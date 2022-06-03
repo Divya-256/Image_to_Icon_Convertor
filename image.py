@@ -1,5 +1,3 @@
-# import imp
-# from sqlite3 import Row
 from tkinter import *
 
 App=Tk()
